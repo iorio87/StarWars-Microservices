@@ -3,7 +3,7 @@ const controllers = require("../controllers");
 
 const router = Router();
 
-router.get("/", controllers.getFilms);
+router.get("/films", controllers.getFilms);
 router.post("/", controllers.createFilm);
 
 module.exports = router;
