@@ -1,7 +1,6 @@
-require("dotenv").config({path:'../../.env'});
+require("dotenv").config();
 
 module.exports = {
-  MONGO_URI: process.env.MONGO_URI,
-  PRUEBA: process.env.PRUEBA,
+  MONGO_URI: process.env.MONGO_URI,  
 };
 
